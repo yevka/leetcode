@@ -10,4 +10,3 @@ cmake ../
 make
 make test
 ```
-
