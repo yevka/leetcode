@@ -14,6 +14,6 @@ public:
     }
 };
 
-TEST(Solution, twoSum) {
-    ASSERT_TRUE(1, 1);
+TEST(Solution, buildArray) {
+    ASSERT_TRUE(1 == 1);
 }
