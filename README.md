@@ -1,2 +1,3 @@
-# cpp-skeleton
-cpp-skeleton -- build skeleton
+# leetcode
+
+My attempts to learn algorithms
