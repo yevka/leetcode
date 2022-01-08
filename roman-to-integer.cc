@@ -49,6 +49,7 @@ public:
         return total;
     }
 };
+
 TEST(Solution, romanToInteger1) {
     Solution solution;
     ASSERT_EQ(solution.romanToInt("I"), 1);
