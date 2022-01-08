@@ -15,10 +15,10 @@ public:
         if(strs.empty()){
             return "";
         }
-        size_t minSize = 0;
-        for (const auto& str : strs) {
-            if (minSize < str.size()) {
-                minSize = str.size();
+        size_t minSize = strs[0].size();
+        for (size_t i = 1; i < strs.size(); ++i) {
+            if (minSize > strs[i].size()) {
+                minSize = strs[i].size();
             }
         }
         string prefix = "";
